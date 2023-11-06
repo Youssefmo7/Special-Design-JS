@@ -45,16 +45,15 @@ body {
 }
 .hideBox {
   width: 30px;
-  padding: 5px 0;
+  padding: 5px;
   position: absolute;
   top: 100px;
   background-color: white;
-  left: 205px;
+  left: 204px;
   cursor: pointer;
 }
 .hideBox i {
   font-size: 20px;
-  padding-left: 5px;
   color: var(--main-color);
 }
 .box {
