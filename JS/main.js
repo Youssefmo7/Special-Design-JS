@@ -10,7 +10,7 @@ if (mainColor !== null) {
     }
   });
 }
-// end
+// //end
 
 // end local storage
 
