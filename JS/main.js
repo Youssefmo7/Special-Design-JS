@@ -158,7 +158,7 @@ let settingsBox = document.querySelector(".settings-box");
 let gearIcon = document.querySelector(".hideBox i");
 gear.addEventListener("click", (e) => {
   settingsBox.classList.toggle("open");
-  gearIcon.classlist.toggle("fa-spin");
+  gearIcon.classList.toggle("fa-spin");
 });
 
 // switching colors
