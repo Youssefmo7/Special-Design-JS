@@ -155,10 +155,10 @@ window.onscroll = () => {
 // start settings box
 let gear = document.querySelector(".hideBox");
 let settingsBox = document.querySelector(".settings-box");
-let gearIcon = document.querySelector(".hideBox i");
+
 gear.addEventListener("click", (e) => {
   settingsBox.classList.toggle("open");
-  gearIcon.classList.toggle("fa-spin");
+  document.querySelector(".hideBox i").classList.toggle("fa-spin");
 });
 
 // switching colors
